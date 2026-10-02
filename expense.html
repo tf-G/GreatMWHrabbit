@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Expense – The Great Midwestern House Rabbit</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=DM+Sans:wght@300;400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .expense-section {
+      background: var(--white);
+      border: 1px solid var(--parchment);
+      border-radius: 8px;
+      padding: 24px 28px;
+      margin-bottom: 24px;
+    }
+    .expense-section h2 {
+      border-bottom: none;
+      margin-top: 0;
+      color: var(--bark-dark);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .expense-section h2 .badge {
+      font-family: var(--font-body);
+      font-size: 0.82rem;
+      background: var(--rust);
+      color: white;
+      padding: 2px 10px;
+      border-radius: 20px;
+      font-weight: normal;
+      font-style: normal;
+    }
+    .expense-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 14px;
+      font-size: 0.93rem;
+    }
+    .expense-table td {
+      padding: 7px 12px 7px 0;
+      border-bottom: 1px solid var(--parchment);
+      color: var(--ink);
+    }
+    .expense-table td:last-child {
+      text-align: right;
+      color: var(--bark);
+      font-weight: 500;
+      white-space: nowrap;
+    }
+    .expense-table tr:last-child td {
+      border-bottom: none;
+    }
+  </style>
+</head>
+<body>
+  <a href="#main-content" class="skip-nav">Skip to main content</a>
+  <nav class="sidebar" id="sidebar" aria-label="Site navigation">
+    <div class="sidebar-header">
+      <span class="sidebar-logo" aria-hidden="true">🐇</span>
+      <span class="sidebar-title">The Great<br>Midwestern House Rabbit</span>
+    </div>
+    <ul class="nav-links" aria-label="Main navigation">
+      <li><a href="index.html" class="nav-link">Home</a></li>
+      <li><a href="leporidae.html" class="nav-link">Leporidae</a></li>
+      <li class="nav-section">Types of Rabbits</li>
+      <li><a href="domestic.html" class="nav-link">Domestic House Rabbits</a></li>
+      <li><a href="garden.html" class="nav-link">Garden Rabbits</a></li>
+      <li><a href="meat.html" class="nav-link">Meat Rabbits</a></li>
+      <li class="nav-section">Keeping a Rabbit</li>
+      <li><a href="style.html" class="nav-link">Style of Pet</a></li>
+      <li><a href="family.html" class="nav-link">Family Life</a></li>
+      <li><a href="daily.html" class="nav-link">Daily Upkeep</a></li>
+      <li><a href="not-easter.html" class="nav-link">Not for Easter</a></li>
+      <li><a href="bonded-rabbits.html" class="nav-link">Bonded Rabbits</a></li>
+      <li><a href="bonding.html" class="nav-link">Bonding Process</a></li>
+      <li><a href="expense.html" class="nav-link active" aria-current="page">Expense</a></li>
+    </ul>
+    <div class="sidebar-footer">
+      Some information from the <a href="https://www.reddoorshelter.org/2022-Red-Door-Bunny-Book.pdf" target="_blank" rel="noopener noreferrer">Red Door Animal Shelter</a>
+    </div>
+  </nav>
+  <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">☰</button>
+
+  <main class="main-content" id="main-content">
+    <div class="page-header">
+      <p class="eyebrow">Keeping a Rabbit</p>
+      <h1>Expense</h1>
+    </div>
+
+    <div class="page-body" style="max-width: 800px;">
+
+      <div class="expense-section">
+        <h2>One-Time Costs <span class="badge">$225 and up</span></h2>
+        <table class="expense-table">
+          <tr><td>Adoption fee <em>(fixed and vetted)</em></td><td>$100</td></tr>
+          <tr><td>Cage / Exercise pen</td><td>$75–200</td></tr>
+          <tr><td>Litter box</td><td>$10</td></tr>
+          <tr><td>Water crock</td><td>$10</td></tr>
+          <tr><td>Grooming brush / Nail trimmers</td><td>$20</td></tr>
+          <tr><td>Cord covers</td><td>$10</td></tr>
+        </table>
+      </div>
+
+      <div class="expense-section">
+        <h2>Monthly Costs <span class="badge">$80 and up</span></h2>
+        <table class="expense-table">
+          <tr><td>Fresh greens <em>(salads 2× a day)</em></td><td>$40–60</td></tr>
+          <tr><td>Timothy hay <em>(buy in bulk for better price)</em></td><td>$25–75</td></tr>
+          <tr><td>Litter, 40 lb bag</td><td>$5–20</td></tr>
+          <tr><td>Papaya tablets</td><td>$10</td></tr>
+          <tr><td>Medicines <em>(if your bunny has ongoing issues)</em></td><td>$10–100</td></tr>
+        </table>
+      </div>
+
+      <div class="expense-section">
+        <h2>Quarterly Costs <span class="badge">$50 and up</span></h2>
+        <table class="expense-table">
+          <tr><td>Vet nail trim / ear cleaning</td><td>$25–50</td></tr>
+          <tr><td>Spa Day at Red Door <em>(ear cleaning, grooming, nail trim)</em></td><td>$25–30</td></tr>
+          <tr><td>Toys / boxes / blankets</td><td>$20–40</td></tr>
+          <tr><td>Baby Gas X</td><td>$10</td></tr>
+          <tr><td>Laxatone</td><td>$10</td></tr>
+        </table>
+      </div>
+
+      <div class="expense-section">
+        <h2>Vet Costs</h2>
+        <table class="expense-table">
+          <tr><td>Annual exam <em>(elderly rabbits need bi-annual)</em></td><td>$50–100</td></tr>
+          <tr><td>Emergency care</td><td>$300–1,000+</td></tr>
+          <tr><td>Spay/neuter surgery <em>(if you purchase rather than adopt)</em></td><td>$100–400</td></tr>
+          <tr><td>Medicines <em>(prices vary with short or long-term illness)</em></td><td>varies</td></tr>
+          <tr><td>Pet insurance <em>(VPI is the only company that covers rabbits)</em></td><td>$12/mo</td></tr>
+        </table>
+      </div>
+
+      <img src="images/Expense.jpg" alt="Itemized list of rabbit care costs" class="page-img" />
+
+    </div>
+
+    <footer class="site-footer">
+      <p>Some information from the <a href="https://www.reddoorshelter.org/2022-Red-Door-Bunny-Book.pdf" target="_blank" rel="noopener noreferrer">Red Door Animal Shelter Pet Care Library</a>.</p>
+    </footer>
+  </main>
+
+  <script src="nav.js"></script>
+</body>
+</html>
