@@ -6,8 +6,8 @@
 :root {
   --cream:       #f5f0e8;
   --parchment:   #ede5d4;
-  --bark:        #803f71;     /*changed because brown was ugly
-  --bark-dark:   #4e204c;       /*changed because brown was ugly
+  --bark:        #803f71;     /*changed because brown was ugly */
+  --bark-dark:   #532448;     /*changed because brown was ugly */
   --moss:        #4a5e35;      /* darkened from #6b7c55 for WCAG AA on light bg */
   --moss-light:  #8fa36e;      /* decorative only — not used for text on light bg */
   --rust:        #8f3e1e;      /* darkened from #b85c38 for WCAG AA */
