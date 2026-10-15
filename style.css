@@ -109,7 +109,7 @@ body {
   color: var(--cream);
   padding: 16px 22px 6px;
   opacity: 0.5;
-  font-weight: 300;
+  font-weight: 600;
 }
 
 .nav-link {
@@ -196,7 +196,7 @@ body {
    HERO
    ===================== */
 .hero {
-  background: linear-gradient(135deg, var(--bark-dark) 0%, #3a2912 60%, var(--bark) 100%);
+  background: linear-gradient(135deg, var(--bark-dark) 0%, #3c033a 60%, var(--bark) 100%);
   display: flex;
   align-items: stretch;
   min-height: 480px;
@@ -246,7 +246,7 @@ body {
 
 .hero-subtitle {
   font-size: 1rem;
-  color: rgba(245,240,232,0.7);
+  color: rgba(245,240,232,1.0);
   max-width: 400px;
   margin-bottom: 32px;
   line-height: 1.6;
@@ -254,7 +254,7 @@ body {
 
 .hero-cta {
   display: inline-block;
-  background: var(--rust);      /* darkened rust now passes WCAG AA */
+  background: var(--purple);
   color: var(--white);
   text-decoration: none;
   padding: 12px 28px;
@@ -268,7 +268,7 @@ body {
 }
 
 .hero-cta:hover {
-  background: var(--rust-light);
+  background: var(--purple-light);
   transform: translateY(-1px);
 }
 
