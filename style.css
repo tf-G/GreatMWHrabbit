@@ -16,6 +16,7 @@
   --ink:         #2c2318;
   --sand:        #c4aa84;
   --white:       #fdfaf5;
+  --ivory:       #fffff0;
 
   --sidebar-w:   260px;
   --font-display: 'Outfit', system-ui, sans-serif;
@@ -106,7 +107,7 @@ body {
   font-size: 0.8rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: var(--cream);
+  color: var(--ivory);
   padding: 16px 22px 6px;
   opacity: 0.5;
   font-weight: 600;
@@ -169,7 +170,7 @@ body {
   top: 14px; left: 14px;
   z-index: 200;
   background: var(--bark-dark);
-  color: var(--cream);
+  color: var(--ivory);
   border: none;
   border-radius: 6px;
   width: 42px; height: 42px;
@@ -505,7 +506,7 @@ body {
   left: 0;
   width: 32px; height: 32px;
   background: var(--bark-dark);
-  color: var(--cream);
+  color: var(--ivory);
   border-radius: 50%;
   display: flex;
   align-items: center;
