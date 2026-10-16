@@ -66,7 +66,7 @@ body {
   width: var(--sidebar-w);
   height: 100vh;
   background: var(--bark-dark);
-  color: var(--cream);
+  color: var(--ivory);
   display: flex;
   flex-direction: column;
   z-index: 100;
@@ -109,7 +109,7 @@ body {
   text-transform: uppercase;
   color: var(--ivory);
   padding: 16px 22px 6px;
-  opacity: 0.5;
+  opacity: 1.0;
   font-weight: 600;
 }
 
