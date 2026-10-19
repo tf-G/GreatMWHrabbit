@@ -7,7 +7,7 @@
   --cream:       #f5f0e8;
   --parchment:   #ede5d4;
   --bark:        #803f71;     /*changed because brown was ugly */
-  --bark-dark:   #532448;     /*changed because brown was ugly */
+  --bark-dark:   #661d66;     /*changed because brown was ugly */
   --moss:        #4a5e35;      /* darkened from #6b7c55 for WCAG AA on light bg */
   --moss-light:  #8fa36e;      /* decorative only — not used for text on light bg */
   --rust:        #8f3e1e;      /* darkened from #b85c38 for WCAG AA */
@@ -93,7 +93,7 @@ body {
   font-size: 0.95rem;
   font-weight: 700;
   line-height: 1.3;
-  color: var(--cream);          /* matches hero-title color */
+  color: var(--ivory);          /* matches hero-title color */
   font-style: normal;
 }
 
@@ -204,7 +204,7 @@ body {
   position: relative;
   overflow: hidden;
 }
-
+/*
 .hero::before {
   content: '';
   position: absolute;
@@ -212,7 +212,7 @@ body {
   background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.02'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
   pointer-events: none;
 }
-
+*/
 .hero-text {
   flex: 1;
   padding: 64px 48px 64px 56px;
@@ -227,7 +227,7 @@ body {
   font-size: 0.78rem;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: var(--cream);          /* replaces moss-light which failed on dark bg */
+  color: var(--ivory);          /* replaces moss-light which failed on dark bg */
   margin-bottom: 14px;
 }
 
@@ -235,19 +235,19 @@ body {
   font-family: var(--font-display);
   font-size: clamp(2.4rem, 4vw, 3.6rem);
   font-weight: 600;
-  color: var(--cream);
+  color: var(--ivory);
   line-height: 1.1;
   margin-bottom: 20px;
 }
 
 .hero-title em {
-  color: var(--cream);          /* same as hero-title (H1 color in hero context) */
+  color: var(--ivory);          /* same as hero-title (H1 color in hero context) */
   font-style: normal;
 }
 
 .hero-subtitle {
   font-size: 1rem;
-  color: rgba(245,240,232,1.0);
+  color: rgb#661d66;
   max-width: 400px;
   margin-bottom: 32px;
   line-height: 1.6;
@@ -290,7 +290,7 @@ body {
   position: absolute;
   left: 0; top: 0; bottom: 0;
   width: 80px;
-  background: linear-gradient(to right, var(--bark-dark), transparent);
+  background: #661d66 var(--bark-dark);
   z-index: 1;
 }
 
