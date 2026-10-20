@@ -548,7 +548,7 @@ body {
   height: 220px;
   object-fit: cover;
   border-radius: 6px;
-  box-shadow: 0 4px 16px rgba(44,35,24,0.12);
+  box-shadow: 0 4px 16px rgba(44,33,44,0.12);
 }
 
 /* Callout box */
