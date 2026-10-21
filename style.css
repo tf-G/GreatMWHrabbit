@@ -85,7 +85,6 @@ body {
 .sidebar-logo {
   font-size: 2rem;
   flex-shrink: 0;
-  aria-hidden: true;
 }
 
 .sidebar-title {
@@ -479,7 +478,6 @@ body {
   color: var(--rust);
   position: absolute;
   left: 8px;
-  aria-hidden: true;
 }
 
 .page-body ul ul li::before {
