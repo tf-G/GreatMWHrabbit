@@ -319,17 +319,27 @@ body {
   line-height: 1.8;
 }
 
-.intro-text ul li{
+.intro-text ul
+{
   font-size: 1.05 rem;
   color: var(--bark-dark);
-  /* max-width: 780px; */
-  list-style-type: disc;
+  max-width: 780px;
   padding-left: 24px;
   margin-bottom: 10px;
   font-style: normal;           /* no italics on screen */
+  list-style-type: disc;
   line-height: 1.8;
 }
 
+.intro-text li_1
+{
+  font-size: 1.05 rem;
+  color: var(--bark-dark);
+  padding-left: 24px;
+  text-indent: -24px;
+  /* max-width: 780px; */
+  list-style-type: disc;
+}
 /* =====================
    CARD GRID
    ===================== */
