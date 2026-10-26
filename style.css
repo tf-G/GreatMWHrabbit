@@ -312,11 +312,11 @@ body {
 }
 
 .intro-text {
-  font-size: 1.0rem;
+  font-size: 1.05 rem;
   color: var(--bark-dark);
   max-width: 780px;
   font-style: normal;           /* no italics on screen */
-  line-height: 2.0;
+  line-height: 1.8;
 }
 
 /* =====================
