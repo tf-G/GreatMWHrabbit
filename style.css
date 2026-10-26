@@ -463,7 +463,7 @@ body {
 }
 
 .page-body ul {
-  padding-left: 0;
+  padding-left: 24px;
   list-style: none;
 }
 
