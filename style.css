@@ -214,7 +214,10 @@ body {
 */
 .hero-text {
   flex: 1;
-  padding: 64px 48px 64px 56px;
+  padding-top: 48px;
+  padding-right: 2px;
+  padding-bottom: 48px;
+  padding-left: 56px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -227,7 +230,7 @@ body {
   letter-spacing: 0.18em;
   text-transform: uppercase;
   color: var(--ivory);          /* replaces moss-light which failed on dark bg */
-  margin-bottom: 14px;
+  margin-top: 14px;
 }
 
 .hero-title {
@@ -257,7 +260,8 @@ body {
   background: var(--purple);
   color: var(--white);
   text-decoration: none;
-  padding: 12px 28px;
+  padding: 12px 12px;
+  margin-left: -12px;
   border-radius: 4px;
   font-family: var(--font-display);
   font-size: 0.95rem;
@@ -316,22 +320,30 @@ body {
   color: var(--bark-dark);
  /* max-width: 780px; */
   line-height: 1.8;
-  margin-bottom: 24px;
+  margin-bottom: 18px;
 }
-
-.intro-text ul
-{
+ 
+ ul 
+ {
+  /* user-agent styles */
+  display: block;
+  list-style-type: disc;
+  color: var(--bark-dark);
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  padding-inline-start: 40px;
+}
+ 
+/* {
   font-size: 1.05 rem;
   color: var(--bark-dark);
-/*  max-width: 780px; */
   padding-left: 24px;
-  margin-bottom: 24px;
-  list-style-type: disc;
   line-height: 1.6;
 
-}
+} */
 
-.intro-text li_1
+
+li
 {
   font-size: 1.05 rem;
   color: var(--bark-dark);
