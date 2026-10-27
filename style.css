@@ -312,11 +312,10 @@ body {
 }
 
 .intro-text {
-  font-size: 1.00 rem;
+  font-size: 1.05 rem;
   color: var(--bark-dark);
-  max-width: 780px;
-  font-style: normal;           /* no italics on screen */
-  line-height: 1.6;
+ /* max-width: 780px; */
+  line-height: 1.8;
   margin-bottom: 24px;
 }
 
@@ -324,8 +323,8 @@ body {
 {
   font-size: 1.05 rem;
   color: var(--bark-dark);
-  max-width: 780px;
-  padding-left: 48px;
+/*  max-width: 780px; */
+  padding-left: 24px;
   margin-bottom: 24px;
   list-style-type: disc;
   line-height: 1.6;
@@ -336,13 +335,11 @@ body {
 {
   font-size: 1.05 rem;
   color: var(--bark-dark);
-  padding-left: 24px;
+  padding-left: 48px;
   text-indent: -24px;
   margin-bottom: 24px;
   list-style-type: disc;
   line-height: 1.6;
-  /* max-width: 780px; */
-  list-style-type: disc;
 }
 /* =====================
    CARD GRID
