@@ -218,6 +218,7 @@ body {
   padding-right: 2px;
   padding-bottom: 48px;
   padding-left: 56px;
+  align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
