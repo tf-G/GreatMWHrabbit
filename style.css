@@ -312,12 +312,12 @@ body {
 }
 
 .intro-text {
-  font-size: 1.05 rem;
+  font-size: 1.00 rem;
   color: var(--bark-dark);
   max-width: 780px;
   font-style: normal;           /* no italics on screen */
-  line-height: 1.2;
-  margin-bottom: 10px;
+  line-height: 1.6;
+  margin-bottom: 24px;
 }
 
 .intro-text ul
@@ -326,11 +326,10 @@ body {
   color: var(--bark-dark);
   max-width: 780px;
   padding-left: 24px;
-  margin-bottom: 10px;
-  font-style: normal;           /* no italics on screen */
+  margin-bottom: 24px;
   list-style-type: disc;
-  line-height: 1.2;
-  
+  line-height: 1.6;
+
 }
 
 .intro-text li_1
@@ -339,6 +338,9 @@ body {
   color: var(--bark-dark);
   padding-left: 24px;
   text-indent: -24px;
+  margin-bottom: 24px;
+  list-style-type: disc;
+  line-height: 1.6;
   /* max-width: 780px; */
   list-style-type: disc;
 }
