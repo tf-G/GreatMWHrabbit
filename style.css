@@ -325,7 +325,7 @@ body {
   font-size: 1.05 rem;
   color: var(--bark-dark);
   max-width: 780px;
-  padding-left: 24px;
+  padding-left: 48px;
   margin-bottom: 24px;
   list-style-type: disc;
   line-height: 1.6;
