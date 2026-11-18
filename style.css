@@ -107,7 +107,7 @@ body {
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--ivory);
-  padding: 16px 22px 6px;
+  padding: 16px 22px;
   opacity: 1.0;
   font-weight: 600;
 }
