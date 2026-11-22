@@ -107,14 +107,14 @@ body {
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--ivory);
-  padding: 16px 22px;
+  padding: 8px 10px 8px 10px;
   opacity: 1.0;
   font-weight: 600;
 }
 
 .nav-link {
   display: block;
-  padding: 8px 22px;
+  padding: 4px 10px;
   color: rgba(245, 240, 232, 0.8);
   text-decoration: none;
   font-family: var(--font-body);
