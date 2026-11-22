@@ -347,8 +347,8 @@ li
   font-size: 1.05 rem;
   color: var(--bark-dark);
   padding-left: 48px;
-  text-indent: -24px;
-  margin-bottom: 24px;
+  text-indent: -48px;
+  margin-bottom: 12px;
   list-style-type: disc;
   line-height: 1.6;
 }
