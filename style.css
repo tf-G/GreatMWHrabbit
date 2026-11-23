@@ -75,7 +75,7 @@ body {
 }
 
 .sidebar-header {
-  padding: 28px 22px 20px 22px
+  padding: 22px;
   border-bottom: 1px solid rgba(255,255,255,0.12);
   display: flex;
   align-items: center;
@@ -83,7 +83,7 @@ body {
 }
 
 .sidebar-logo {
-  font-size: 2rem;
+  font-size: 1.0 rem;
   flex-shrink: 0;
 }
 
@@ -103,7 +103,7 @@ body {
 }
 
 .nav-section {
-  margin: 12px 0px 4px 8px;
+  margin: 12px;
   font-size: 0.8rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -511,12 +511,14 @@ li
   content: '•';
   color: var(--rust);
   position: absolute;
-  left: 8px;
+  left: 1em;
 }
 
 .page-body ul ul li::before {
   content: '–';
-  color: var(--moss);
+  color: var(--bark);
+  content: '–';
+  left: 16px;
 }
 
 .page-body ol {
@@ -586,7 +588,7 @@ li
 /* Callout box */
 .callout {
   background: var(--parchment);
-  border-left: 4px solid var(--rust);
+  border-left: 4px solid var(--bark);
   border-radius: 0 6px 6px 0;
   padding: 16px 22px;
   margin: 24px 0;
