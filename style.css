@@ -62,7 +62,7 @@ body {
    ===================== */
 .sidebar {
   position: fixed;
-  top: 0; left: 12px;
+  top: 0; left: 0px;
   width: var(--sidebar-w);
   height: 100vh;
   background: var(--bark-dark);
@@ -75,7 +75,7 @@ body {
 }
 
 .sidebar-header {
-  padding: 28px 22px 20px;
+  padding: 28px 22px 20px 22px
   border-bottom: 1px solid rgba(255,255,255,0.12);
   display: flex;
   align-items: center;
@@ -98,11 +98,12 @@ body {
 
 .nav-links {
   list-style: none;
-  padding: 16px 0;
+  padding: 12px 04px;
   flex: 1;
 }
 
 .nav-section {
+  margin: 12px 0px 4px 8px;
   font-size: 0.8rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
