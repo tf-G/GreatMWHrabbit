@@ -7,6 +7,7 @@
   --cream:       #f5f0e8;
   --parchment:   #ede5d4;
   --bark:        #803f71;     /*changed because brown was ugly */
+  --bark-light:  #a05a8c;     /* lighter shade of bark for sidebar */
   --bark-dark:   #661d66;     /*changed because brown was ugly */
   --moss:        #4a5e35;      /* darkened from #6b7c55 for WCAG AA on light bg */
   --moss-light:  #8fa36e;      /* decorative only — not used for text on light bg */
@@ -65,7 +66,7 @@ body {
   top: 0; left: 0px;
   width: var(--sidebar-w);
   height: 100vh;
-  background: var(--bark-dark);
+  background: var(--bark-light);
   color: var(--ivory);
   display: flex;
   flex-direction: column;
@@ -75,7 +76,7 @@ body {
 }
 
 .sidebar-header {
-  padding: 1.375rem;
+  padding: 1rem;
   border-bottom: 1px solid rgba(255,255,255,0.12);
   display: flex;
   align-items: center;
@@ -250,7 +251,7 @@ body {
 }
 
 .hero-eyebrow {
-  font-size: 2rem;
+  font-size: 1.2em;
   letter-spacing: 0.18em;
   text-transform: uppercase;
   color: var(--ivory);          /* replaces moss-light which failed on dark bg 
@@ -272,11 +273,11 @@ body {
 }
 
 .hero-subtitle {
-  font-size: 1rem;
+  font-size: 1.3rem;
   color: var(--ivory);
   max-width: 25rem;
-  margin-bottom: 2rem;
-  line-height: 1.6;
+  margin-bottom: 1.3em;
+  line-height: 1.3;
 }
 
 .hero-cta {
