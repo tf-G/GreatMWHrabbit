@@ -250,11 +250,11 @@ body {
 }
 
 .hero-eyebrow {
-  font-size: 1rem;
+  font-size: 2rem;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: var(--ivory);          /* replaces moss-light which failed on dark bg */
-  margin-top: 0.5rem;
+  color: var(--ivory);          /* replaces moss-light which failed on dark bg 
+  margin-top: 0.5rem; */
 }
 
 .hero-title {
