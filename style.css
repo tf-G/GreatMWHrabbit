@@ -66,7 +66,7 @@ body {
   top: 0; left: 0px;
   width: var(--sidebar-w);
   height: 100vh;
-  background: var(--bark-light);
+  background: var(--bark);
   color: var(--ivory);
   display: flex;
   flex-direction: column;
